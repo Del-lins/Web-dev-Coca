@@ -90,7 +90,7 @@
   }
 
   .container .text {
-    width: 400px;
+    width: 100%;
     text-align: justify;
     bottom: -50px;
   }
@@ -117,7 +117,6 @@
   }
 
   .container .text {
-    width: 300px;
     text-align: justify;
     bottom: -130px;
   }
