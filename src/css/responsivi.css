@@ -108,6 +108,14 @@
     font-size: 3rem;
   }
 
+  .icons {
+    bottom: 40px;
+  }
+
+  .box-img {
+    right: 5%;
+  }
+
   .box-img img {
     width: 50px;
   }
@@ -122,8 +130,9 @@
     gap: 15px;
   }
 
-  .box-img {
-    right: 5%;
+  .container .text a:hover {
+    transform: translate(10px);
+    box-shadow: 0 0 10px #fff;
   }
 }
 
@@ -145,11 +154,6 @@
 
   .container .text h2 span {
     font-size: 3rem;
-  }
-
-  .container .text a:hover {
-    transform: translate(10px);
-    box-shadow: 0 0 10px #fff;
   }
 
   .icons {
