@@ -1,0 +1,171 @@
+@media (max-width: 1300px) {
+  section .circow {
+    display: none;
+  }
+
+  header {
+    padding: 20px 70px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .circow {
+    clip-path: circle(40% at bottom right);
+  }
+
+  .box-img {
+    display: grid;
+    right: 30%;
+    gap: 10px;
+  }
+
+  .box-img img {
+    width: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  header {
+    padding: 10px 5%;
+    transition: 0.2s;
+    background: rgb(26, 25, 25);
+    position: fixed;
+  }
+
+  section {
+    overflow: auto;
+    padding-bottom: 40%;
+    transition: 0.2s;
+  }
+
+  header .navbar li a {
+    font-size: 16px;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 300px;
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 20px;
+    transition: all 0.55s ease;
+  }
+
+  .navbar a {
+    display: block;
+    margin-left: 0;
+  }
+
+  .bi-menu {
+    display: block;
+  }
+
+  .navbar.open {
+    right: 0;
+  }
+
+  .box-img {
+    display: inline-block;
+    min-height: -100px;
+  }
+
+  .box-img img {
+    width: 70px;
+  }
+
+  .circow {
+    display: none;
+  }
+}
+
+@media (max-width: 778px) {
+  section {
+    height: 100vh;
+  }
+
+  .container .text {
+    width: 400px;
+    text-align: justify;
+    bottom: -50px;
+  }
+
+  .container .text h2 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+
+  .container .text h2 span {
+    font-size: 3rem;
+  }
+
+  .box-img img {
+    width: 50px;
+  }
+}
+
+@media (max-width: 360px) {
+  section {
+    padding: 20px;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  .container .text {
+    width: 300px;
+    text-align: justify;
+    bottom: -130px;
+  }
+
+  .container .text h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .container .text h2 span {
+    font-size: 3rem;
+  }
+
+  .container .text a:hover {
+    transform: translate(10px);
+    box-shadow: 0 0 10px #fff;
+  }
+
+  .icons {
+    position: absolute;
+    bottom: 50px;
+    left: -10px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .icons li a {
+    margin-left: 10px;
+  }
+
+  .box-img img {
+    width: 40px;
+  }
+
+  .box-img .coca1 {
+    transform: rotate(15deg);
+  }
+
+  .box-img .coca2 {
+    transform: rotate(5deg);
+  }
+
+  .box-img .coca3 {
+    transform: rotate(-5deg);
+  }
+
+  .box-img .coca4 {
+    transform: rotate(-5deg);
+  }
+}
