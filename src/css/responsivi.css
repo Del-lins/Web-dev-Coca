@@ -87,15 +87,16 @@
 @media (max-width: 778px) {
   section {
     height: 100vh;
+    padding: 20px;
   }
 
   .container .text p {
-    text-align: justify;
+    text-align: left;
   }
 
   .container .text {
     width: 100%;
-    bottom: -50px;
+    bottom: 80px;
   }
 
   .container .text h2 {
@@ -109,6 +110,16 @@
 
   .box-img img {
     width: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .icons {
+    position: absolute;
+    bottom: 60px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
   }
 }
 

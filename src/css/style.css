@@ -86,6 +86,7 @@ section {
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
+  max-width: max-content;
 }
 
 .container .text h2 span {
@@ -107,6 +108,7 @@ section {
   letter-spacing: 1px;
   border-radius: 40px;
   transition: 0.3s ease-in-out;
+  max-width: max-content;
 }
 
 .container .text a:hover {
