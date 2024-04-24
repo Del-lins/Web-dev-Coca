@@ -89,9 +89,12 @@
     height: 100vh;
   }
 
+  .container .text p {
+    text-align: justify;
+  }
+
   .container .text {
     width: 100%;
-    text-align: justify;
     bottom: -50px;
   }
 
@@ -117,7 +120,6 @@
   }
 
   .container .text {
-    text-align: justify;
     bottom: -130px;
   }
 
