@@ -121,6 +121,10 @@
     justify-content: center;
     gap: 15px;
   }
+
+  .box-img {
+    right: 5%;
+  }
 }
 
 @media (max-width: 360px) {
